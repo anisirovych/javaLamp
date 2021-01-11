@@ -1,12 +1,14 @@
-public abstract class TableLamp extends  Lamp{
+public class TableLamp extends Lamp{
+
+
     @Override
-    public void lightOff() {
-        System.out.println("Light OFF");
+    public void turnOn() {
+        System.out.println("Light ON");
     }
 
     @Override
-    public void lightOn() {
-        System.out.println("Light ON");
+    public void turnOf() {
+        System.out.println("Light OFF");
     }
 
     public void lightState(boolean state) {

@@ -4,7 +4,7 @@ public abstract class Lamp implements  Light {
 
     @Override
     public void lightOff() {
-        System.out.println("Ligth Off");
+        System.out.println("Light Off");
     }
 
     @Override
